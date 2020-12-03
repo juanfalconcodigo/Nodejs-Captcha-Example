@@ -8,8 +8,10 @@
 
 ### Fix problems with audit
 
-> npm audit 
+> npm  audit
+
 > npm audit --fix
+
 > npm audit fix
 
 
