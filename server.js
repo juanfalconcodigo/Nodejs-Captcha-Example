@@ -11,7 +11,9 @@ const captchaSessionId = 'captcha';
 const captchaFieldName = 'captcha';
 
 const captcha = require('svg-captcha-express').create({
-    cookie: captchaSessionId
+    cookie: captchaSessionId,
+    background: 'rgb(255, 255, 255)',
+    color: true
 });
 
 //load custom font (optional)
